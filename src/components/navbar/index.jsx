@@ -51,7 +51,7 @@ const Navbar = (props) => {
         
       </div>
       <Logo />
-      <div className="relative mt-[3px] flex h-[61px] w-full flex-grow items-center justify-around gap-2 rounded-full bg-white px-2 py-2 shadow-xl shadow-shadow-500 dark:!bg-navy-800 dark:shadow-none md:w-[365px] md:flex-grow-0 md:gap-1 xl:w-[365px] xl:gap-2">
+      <div className="relative mt-[3px] flex h-[61px] w-full flex-grow items-center justify-around gap-2 text-white px-2 py-2 shadow-xl shadow-shadow-500 dark:shadow-none md:w-[365px] md:flex-grow-0 md:gap-1 xl:w-[365px] xl:gap-2">
         <div className="flex h-full items-center rounded-full text-white pr-48">
           {/* <p className="pl-3 pr-2 text-xl">
             <FiSearch className="h-4 w-4 text-gray-400 dark:text-white" />
@@ -72,7 +72,7 @@ const Navbar = (props) => {
         <Dropdown
           button={
             <p className="cursor-pointer">
-              <IoMdNotificationsOutline className="h-4 w-4 text-gray-600 dark:text-white" />
+              <IoMdNotificationsOutline className="h-4 w-4 text-white" />
             </p>
           }
           animation="origin-[65%_0%] md:origin-top-right transition-all duration-300 ease-in-out"
@@ -92,7 +92,7 @@ const Navbar = (props) => {
                   <BsArrowBarUp />
                 </div>
                 <div className="ml-2 flex h-full w-full flex-col justify-center rounded-lg px-1 text-sm">
-                  <p className="mb-1 text-left text-base font-bold text-gray-900 dark:text-white">
+                  <p className="mb-1 text-left text-base font-bold text-white">
                     Notificação #1
                   </p>
                   <p className="font-base text-left text-xs text-gray-900 dark:text-white">
@@ -122,7 +122,7 @@ const Navbar = (props) => {
         <Dropdown
           button={
             <p className="cursor-pointer">
-              <IoMdInformationCircleOutline className="h-4 w-4 text-gray-600 dark:text-white" />
+              <IoMdInformationCircleOutline className="h-4 w-4 text-white" />
             </p>
           }
           children={
@@ -167,9 +167,9 @@ const Navbar = (props) => {
           }}
         >
           {darkmode ? (
-            <RiSunFill className="h-4 w-4 text-gray-600 dark:text-white transition-all" />
+            <RiSunFill className="h-4 w-4 text-white transition-all" />
           ) : (
-            <RiMoonFill className="h-4 w-4 text-gray-600 dark:text-white transition-all" />
+            <RiMoonFill className="h-4 w-4 text-white transition-all" />
           )}
         </div> 
         {/* Profile & Dropdown */}
