@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+body {
+	font-family: "DM Sans", sans-serif;
+}
+
+option {
+	color: black;
+}
+
+/* Estilo de animação para a transição de tema */
+@keyframes fadeInOut {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0.5;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.theme-transition {
+	animation: fadeInOut 5s ease-in-out;
+}
