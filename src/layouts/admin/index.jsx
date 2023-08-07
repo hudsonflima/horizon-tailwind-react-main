@@ -4,9 +4,12 @@ import Navbar from "components/navbar";
 import Footer from "components/footer/Footer";
 import routes from "routes.js";
 
+
 export default function Admin(props) {
+  
   const { ...rest } = props;
   const location = useLocation();
+  // eslint-disable-next-line no-unused-vars
   const [open, setOpen] = React.useState(true);
   const [currentRoute, setCurrentRoute] = React.useState("Home");
 

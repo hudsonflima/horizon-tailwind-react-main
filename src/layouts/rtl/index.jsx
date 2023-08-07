@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Navbar from "components/navbar/RTL";
+// eslint-disable-next-line no-unused-vars
 import Sidebar from "components/sidebar/RTL";
 import Footer from "components/footer/Footer";
 import routes from "routes.js";
@@ -8,6 +9,7 @@ import routes from "routes.js";
 export default function RTL(props) {
   const { ...rest } = props;
   const location = useLocation();
+  // eslint-disable-next-line no-unused-vars
   const [open, setOpen] = React.useState(true);
   const [currentRoute, setCurrentRoute] = React.useState("Home");
 
