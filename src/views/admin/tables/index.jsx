@@ -6,6 +6,7 @@ import {
   columnsDataColumns,
   columnsDataComplex,
 } from "./variables/columnsData";
+
 import tableDataDevelopment from "./variables/tableDataDevelopment.json";
 import tableDataCheck from "./variables/tableDataCheck.json";
 import tableDataColumns from "./variables/tableDataColumns.json";

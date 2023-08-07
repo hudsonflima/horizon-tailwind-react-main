@@ -8,14 +8,14 @@ export const barChartDataDailyTraffic = [
 export const barChartOptionsDailyTraffic = {
   chart: {
     toolbar: {
-      show: false,
+      show: true,
     },
   },
   tooltip: {
     style: {
       fontSize: "12px",
       fontFamily: undefined,
-      backgroundColor: "#000000"
+      backgroundColor: "#c6c6c6"
     },
     onDatasetHover: {
       style: {
@@ -145,8 +145,6 @@ export const pieChartOptions = {
     },
   },
 };
-
-export const pieChartData = [63, 25, 12];
 
 export const barChartDataWeeklyRevenue = [
   {
@@ -329,3 +327,5 @@ export const lineChartOptionsTotalSpent = {
     show: false,
   },
 };
+
+export const pieChartData = [77, 34, 22];

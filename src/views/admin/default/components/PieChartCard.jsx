@@ -8,15 +8,15 @@ const PieChartCard = () => {
       <div className="flex flex-row justify-between px-3 pt-2">
         <div>
           <h4 className="text-lg font-bold text-navy-700 dark:text-white">
-            Your Pie Chart
+            Uso do sistema
           </h4>
         </div>
 
         <div className="mb-6 flex items-center justify-center">
-          <select className="mb-3 mr-2 flex items-center justify-center text-sm font-bold text-gray-600 hover:cursor-pointer dark:!bg-navy-800 dark:text-white">
-            <option value="monthly">Mensal</option>
-            <option value="yearly">Anual</option>
-            <option value="weekly">Semanal</option>
+          <select className="mb-3 mr-2 flex items-center justify-center text-sm font-bold text-gray-800 hover:cursor-pointer bg-transparent dark:bg-navy-900 dark:text-white">
+            <option className="dark:text-white text-gray-800" value="monthly">Mensal</option>
+            <option className="dark:text-white text-gray-800" value="yearly">Anual</option>
+            <option className="dark:text-white text-gray-800" value="weekly">Semanal</option>
           </select>
         </div>
       </div>
